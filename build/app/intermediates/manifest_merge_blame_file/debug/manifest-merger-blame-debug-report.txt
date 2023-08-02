@@ -1,0 +1,162 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mooner92.lovechosun"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/mooner92/Desktop/F_apps/lovechosun/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/Users/mooner92/Desktop/F_apps/lovechosun/android/app/src/debug/AndroidManifest.xml:6:22-64
+16
+17    <queries>
+17-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-24:15
+18        <package android:name="com.kakao.talk" />
+18-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-50
+18-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-47
+19        <package android:name="com.kakao.talk.alpha" />
+19-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-56
+19-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:11:18-53
+20        <package android:name="com.kakao.talk.sandbox" />
+20-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-58
+20-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:12:18-55
+21        <package android:name="com.kakao.onetalk" />
+21-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-53
+21-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:13:18-50
+22        <package android:name="com.locnall.KimGiSa" />
+22-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-55
+22-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-52
+23        <package android:name="com.lguplus.navi" />
+23-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-52
+23-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:15:18-49
+24
+25        <intent>
+25-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:18
+26            <action android:name="android.intent.action.VIEW" />
+26-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-65
+26-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:21-62
+27
+28            <category android:name="android.intent.category.BROWSABLE" />
+28-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-74
+28-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:23-71
+29
+30            <data android:scheme="https" />
+30-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-44
+30-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:19-41
+31        </intent>
+32    </queries>
+33
+34    <application
+35        android:name="android.app.Application"
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.6.0] /Users/mooner92/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+39        android:label="lovechosun" >
+40        <activity
+41            android:name="com.kakao.sdk.flutter.AuthCodeCustomTabsActivity"
+42            android:exported="true"
+43            android:launchMode="singleTask"
+43-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-44
+44            android:theme="@style/TransparentCompat" >
+44-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-53
+45            <intent-filter android:label="flutter_web_auth" >
+46                <action android:name="android.intent.action.VIEW" />
+46-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-65
+46-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:18:21-62
+47
+48                <category android:name="android.intent.category.DEFAULT" />
+49                <category android:name="android.intent.category.BROWSABLE" />
+49-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-74
+49-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:20:23-71
+50
+51                <!-- "kakao${YOUR_NATIVE_APP_KEY}://oauth" 형식의 앱 실행 스킴 설정 -->
+52                <!-- 카카오 로그인 Redirect URI -->
+53                <data
+53-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-44
+54                    android:host="oauth"
+55                    android:scheme="kakao4ad26a6e6607e15d391258da96b5edad" />
+55-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:19-41
+56            </intent-filter>
+57        </activity>
+58        <activity
+59            android:name="com.mooner92.lovechosun.MainActivity"
+60            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+61            android:exported="true"
+62            android:hardwareAccelerated="true"
+63            android:launchMode="singleTop"
+64            android:theme="@style/LaunchTheme"
+65            android:windowSoftInputMode="adjustResize" >
+66
+67            <!--
+68                 Specifies an Android theme to apply to this Activity as soon as
+69                 the Android process has started. This theme is visible to the user
+70                 while the Flutter UI initializes. After that, this theme continues
+71                 to determine the Window background behind the Flutter UI.
+72            -->
+73            <meta-data
+74                android:name="io.flutter.embedding.android.NormalTheme"
+75                android:resource="@style/NormalTheme" />
+76
+77            <intent-filter>
+78                <action android:name="android.intent.action.MAIN" />
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+81                <!-- "kakao${YOUR_NATIVE_APP_KEY}://${PRODUCT_NAME}" 형식의 앱 실행 스킴 설정 -->
+82                <!-- 카카오톡 공유, 카카오톡 메시지 -->
+83                <data
+83-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-44
+84                    android:host="kakaolink"
+85                    android:scheme="kakao4ad26a6e6607e15d391258da96b5edad" />
+85-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:19-41
+86                <!-- 카카오스토리 -->
+87                <data
+87-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-44
+88                    android:host="kakaostory"
+89                    android:scheme="kakao4ad26a6e6607e15d391258da96b5edad" />
+89-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:22:19-41
+90            </intent-filter>
+91        </activity>
+92        <!--
+93             Don't delete the meta-data below.
+94             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+95        -->
+96        <meta-data
+97            android:name="flutterEmbedding"
+98            android:value="2" />
+99
+100        <activity
+100-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-32:56
+101            android:name="com.kakao.sdk.flutter.TalkAuthCodeActivity"
+101-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-70
+102            android:configChanges="orientation|screenSize|keyboardHidden|uiMode"
+102-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-81
+103            android:exported="false"
+103-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-37
+104            android:launchMode="singleTask"
+104-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-44
+105            android:theme="@style/TransparentCompat" />
+105-->[:kakao_flutter_sdk_common] /Users/mooner92/Desktop/F_apps/lovechosun/build/kakao_flutter_sdk_common/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-53
+106
+107        <uses-library
+107-->[androidx.window:window:1.0.0-beta04] /Users/mooner92/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+108            android:name="androidx.window.extensions"
+108-->[androidx.window:window:1.0.0-beta04] /Users/mooner92/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+109            android:required="false" />
+109-->[androidx.window:window:1.0.0-beta04] /Users/mooner92/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+110        <uses-library
+110-->[androidx.window:window:1.0.0-beta04] /Users/mooner92/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+111            android:name="androidx.window.sidecar"
+111-->[androidx.window:window:1.0.0-beta04] /Users/mooner92/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+112            android:required="false" />
+112-->[androidx.window:window:1.0.0-beta04] /Users/mooner92/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+113    </application>
+114
+115</manifest>
